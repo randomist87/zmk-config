@@ -36,7 +36,7 @@
             bindings = <
   &kp GRAVE        &kp F1      &kp F2     &kp F3  &kp F4  &kp F5            &kp F6  &kp F7      &kp F8   &kp F9    &kp F10     &kp F11          &kp F12      &kp DEL
      &trans        &trans     &kp UP  &trans  &reset  &trans                &trans  &trans     &kp INS   &trans  &kp PSCRN    &kp SLCK  &kp PAUSE_BREAK
-     &trans      &kp LEFT    &kp DOWN  &kp RIGHT  &BT_SEL 0  &BT_SEL 1            &BT_SEL 2  &BT_SEL 3     &BT_SEL 4   &trans   &kp HOME   &kp PG_UP           &trans  &bootloader
+     &trans      &kp LEFT    &kp DOWN  &kp RIGHT  &bt BT_SEL 0  &bt BT_SEL 1            &bt BT_SEL 2  &bt BT_SEL 3     &bt BT_SEL 4   &trans   &kp HOME   &kp PG_UP           &trans  &bootloader
  &kp C_PREV  &kp C_VOL_UP  &kp C_MUTE  &kp C_VOL_DOWN &kp C_NEXT &trans            &trans  &trans  &trans      &trans  &kp END  &kp PG_DN  &trans
  &bt BT_PRV  &bt BT_NXT     &trans  &trans  &trans            &trans  &trans  &bt BT_CLR
             >;
